@@ -41,11 +41,9 @@ const filter = (queryString, mockaroData) => {
                 queryArray.push(mockaroData[i])
             }
         }
-        //queryArray.push({'location':queryString.location})
+        
     }
-    // if (queryString.post_date) {
-    //     queryArray.push({'location':queryString.post_date})
-    // }
+
     queryArrayLoca = []
     if (queryString.company) {
         for(let i = 0; i < queryArray.length; i++){  
@@ -54,7 +52,6 @@ const filter = (queryString, mockaroData) => {
             }
         }
         return queryArrayLoca
-        //queryArray.push({'location':queryString.comapny})
     }
     return queryArray
 }

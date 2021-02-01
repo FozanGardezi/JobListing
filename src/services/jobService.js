@@ -30,7 +30,6 @@ const search = async (queryString) => {
         return sortedfiltered
     }
     let searchedfiltered = await Job.find({$and:queryArray})
-    //console.log("Results are: ", result);
     return searchedfiltered;
 }
 
