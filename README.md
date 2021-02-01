@@ -42,7 +42,7 @@ Create a JSON data like this(all fields are required):
 }
 ```
 
-###Delete Api 
+### Delete Api 
 
 Delete an entry in database just by passing the id.
 The url for delete is like this: 127.0.0.1:8000/jobs/delete/idstring
